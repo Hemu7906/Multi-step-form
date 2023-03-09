@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Registraion Form</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <h1 class="text-center">Registration Form</h1>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title="LeadersDetails"
+        ></div>
+        <div class="progress-step" data-title="members Details"></div>
+        <div class="progress-step" data-title="Team details"></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <label for="username">Team Leader Name</label>
+          <input type="text" name="username" id="username" required/>
+        </div>
+        <div class="input-group">
+            <label for="position">Registration Number</label>
+            <input type="text" name="position" id="position" />
+          </div>
+        <div class="input-group">
+            <label for="position">E-mail</label>
+            <input type="text" name="position" id="position" />
+          </div>
+        <div class="input-group">
+            <label for="position">Phone</label>
+            <input type="text" name="position" id="position" />
+          </div>
+            <div class="">
+                <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+
+
+      <div class="form-step">
+          <h2>1st Member Details</h2>
+        <div class="input-group">
+          <label for="phone">Name</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Registration Number</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">Phone</label>
+          <input type="text" name="email" id="email" />
+        </div>
+
+        <h2>2nd Member Details</h2>
+
+        <div class="input-group">
+          <label for="phone">Name</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Registration Number</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">Phone</label>
+          <input type="text" name="email" id="email" />
+        </div>
+
+        <h2>3rd Member Details</h2>
+
+        <div class="input-group">
+          <label for="phone">Name</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Registration Number</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">Phone</label>
+          <input type="text" name="email" id="email" />
+        </div>
+
+        <h2>4th Member Details</h2>
+
+        <div class="input-group">
+          <label for="phone">Name</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Registration Number</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="email">Phone</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <div class="input-group">
+          <label for="password">Team Name</label>
+          <input type="password" name="Team Name" id="Team Name" />
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Team Logo</label>
+          <input class="image" type="file" name="image" id="image" onchange="readURL(this)" accept="image/*">
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <input type="submit" value="Submit" class="btn" /> 
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
